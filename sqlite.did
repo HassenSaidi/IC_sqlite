@@ -1,0 +1,5 @@
+service : {
+  sqlite_init: () -> (int);
+  sqlite_update: (text) -> (int);
+  sqlite_query: (text) -> (text);
+}      
