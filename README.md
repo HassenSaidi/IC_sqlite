@@ -2,10 +2,10 @@
 This is a port of the SQL database engine SQLite to the
 Internet Computer. SQLite is one of the most widely used database
 software.  An SQLite database is normally stored in a single ordinary
-disk file. However, it offers the possibility to force an SQLite
+disk file. However, there is a possibility to force an SQLite
 database to exist purely in memory. The IC's orthogonal persistence
 guarantees that a database create in memory is automatically
-persisted.
+persisted. 
 
 This port consists of compiling an unmodified source code of SQLite to
 WebAssembly and providing a simple canister `src/sqlite3-canister.c`
@@ -27,4 +27,3 @@ To build the project, you need:
 * wasi-sdk with a pre-built libc.a. Technically, you don't need to use `wasi` at all. You can build your own libc.a independently.
 * the DFINITY sdk to run a local replica and to install the canister.
 
-# SQLITE on the IC
