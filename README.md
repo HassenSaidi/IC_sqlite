@@ -19,7 +19,7 @@ The project contains:
   * `sqlite_init: () -> (int)` to initialize the database
   * `sqlite_update: (SQL statement text) -> (SQLite Result Code)` to update the database
   * `sqlite_query: (SQL statement text) -> (Query result text)` to query the database
-* source cade to build `sqlite.wasm` in the `src` folder. Since there is no official C SDK yet for building canisters, I lifted most of the C interface with the IC from [this example](https://github.com/enzoh/counter) 
+* source code to build `sqlite.wasm` in the `src` folder. Since there is no official C SDK yet for building canisters, I lifted most of the C interface with the IC from [this example](https://github.com/enzoh/counter). 
 
 # Dependencies
 To build the project, you need:
